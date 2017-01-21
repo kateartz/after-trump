@@ -11,7 +11,7 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight:        bold;
-    text-align:         center;
+    text-align:         left;
     }
 
 html {
@@ -25,9 +25,10 @@ html {
 /* Custom fonts */
 
 @font-face {
-    font-family: 'league_spartanregular';
-    src: url('webfonts/leaguespartan-bold.woff2') format('woff2'),
-         url('webfonts/leaguespartan-bold.woff') format('woff');
+    font-family: 'blackout_midnight';
+    src: url('webfonts/blackout_midnight-webfont.woff') format('woff'),
+         url('webfonts/blackout_midnight-webfont.svg') format('svg'),
+         url('webfonts/blackout_midnight-webfont.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 
@@ -38,7 +39,7 @@ a {
 }
 
 p {
-    padding:            5px auto;
+    padding:            10px;
 }
 
 
@@ -47,14 +48,17 @@ body {
     margin:             20px 80px 60px;
     font-size:          18px;
     line-height:        1.4;
-    font-family:        'league_spartanregular', Helvetica, sans-serif;
+    font-family:        Helvetica, sans-serif;
     }
 
 header {
-    margin:             60px 20px 60px;
-    font-size:          24px;
-    font-family:        'league_spartanregular', Helvetica, sans-serif;
-    text-align:         center;
+    margin:             5px 0px 10px;
+    font-size:          60px;
+    font-family:        'blackout_midnight', Helvetica, sans-serif;
+    text-align:         left;
+    line-height:        1;
+    border-bottom:      3px solid black;
+
     }
 
 
