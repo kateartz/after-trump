@@ -34,8 +34,60 @@ html {
 
 }
 
+@font-face {
+    font-family: 'blackout_sunrise';
+    src: url('webfonts/blackout_sunrise-webfont.woff') format('woff'),
+         url('webfonts/blackout_sunrise-webfont.svg') format('svg'),
+         url('webfonts/blackout_sunrise-webfont.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'blackout_two_am';
+    src: url('webfonts/blackout_two_am-webfont.woff') format('woff'),
+         url('webfonts/blackout_two_am-webfont.svg') format('svg'),
+         url('webfonts/blackout_two_am-webfont.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'junctionbold';
+    src: url('webfonts/junction-bold.woff2') format('woff2'),
+         url('webfonts/junction-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'junctionlight';
+    src: url('webfonts/junction-light.woff2') format('woff2'),
+         url('webfonts/junction-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'junctionregular';
+    src: url('webfonts/junction-regular.woff2') format('woff2'),
+         url('webfonts/junction-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*end custom fonts*/
+
+
+
 a {
     padding:            5px auto;
+    color:              black;
 }
 
 p {
@@ -48,7 +100,7 @@ body {
     margin:             20px 80px 60px;
     font-size:          18px;
     line-height:        1.4;
-    font-family:        Helvetica, sans-serif;
+    font-family:        'junctionregular', Helvetica, sans-serif;
     }
 
 header {
@@ -57,7 +109,7 @@ header {
     font-family:        'blackout_midnight', Helvetica, sans-serif;
     text-align:         left;
     line-height:        1;
-    border-bottom:      3px solid black;
+    border-bottom:      3px solid black; 
 
     }
 
