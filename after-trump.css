@@ -114,12 +114,15 @@ body {
     font-size:          18px;
     line-height:        1.4;
     font-family:        'junctionregular', Helvetica, sans-serif;
+
     }
 
 #list-text {
     margin:             30px 35px;
 
 }
+
+/*Hot Topics text box*/
 
 .special {
     border:             2px solid black;
@@ -138,13 +141,27 @@ body {
 
 }
 
+/*Footer*/
+
+.footer {
+  position: relative;
+  right:            0;
+  bottom:           0;
+  left:             0;
+  padding:          1em;
+  background-color: #efefef;
+  text-align:       center;
+  clear:            both;
+}
+
 /* Responsive stuff */
-@media    (max-width: 450px) {
+@media    (max-width: 600px) {
 
     header {
-    margin:             10px;
-    font-size:          20px;
-    font-family:        sans-serif;
+    margin:             0px;
+    padding:            10px 10px;
+    font-size:          26px;
+    font-family:        'blackout_midnight', Helvetica, sans-serif;
     text-align:         center;
     font-weight:        bold;
     font-style:         bold;
