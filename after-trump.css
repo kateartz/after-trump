@@ -116,6 +116,18 @@ body {
     font-family:        'junctionregular', Helvetica, sans-serif;
 
     }
+    
+form {
+    display:            inline;
+}
+
+/*email signup*/
+
+#signup {
+    text-align:         center;
+    font-size:          14px;
+}
+
 /*list syling*/
 
 #list-text {
